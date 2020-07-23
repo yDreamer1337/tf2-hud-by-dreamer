@@ -3030,141 +3030,211 @@ Scheme
 		}
 	
 	
-		Arca3Bold12
+		Biko-Bold12
 		{
 			"1"
 			{
-				"name"		"ArcaMajora3-Bold"
+				"name"		"Biko-Bold"
 				"tall"		"12"
 				"antialias" "1"
 			}
 		}
 		
-		Arca3Bold16
+		Biko-Bold16
 		{
 			"1"
 			{
-				"name"		"ArcaMajora3-Bold"
+				"name"		"Biko-Bold"
 				"tall"		"16"
 				"antialias" "1"
 			}
 		}
 		
-		Arca3Bold24
+		Biko-Bold24
 		{
 			"1"
 			{
-				"name"		"ArcaMajora3-Bold"
+				"name"		"Biko-Bold"
 				"tall"		"24"
 				"antialias" "1"
 			}
 		}
 		
-		Arca3Bold32
+		Biko-Bold32
 		{
 			"1"
 			{
-				"name"		"ArcaMajora3-Bold"
+				"name"		"Biko-Bold"
 				"tall"		"32"
 				"antialias" "1"
 			}
 		}
 		
-		Arca3Bold36
+		Biko-Bold36
 		{
 			"1"
 			{
-				"name"		"ArcaMajora3-Bold"
+				"name"		"Biko-Bold"
 				"tall"		"36"
 				"antialias" "1"
 			}
 		}
 		
-		Arca3Bold42
+		Biko-Bold42
 		{
 			"1"
 			{
-				"name"		"ArcaMajora3-Bold"
+				"name"		"Biko-Bold"
 				"tall"		"42"
 				"antialias" "1"
 			}
 		}
 		
-		Arca3Bold48
+		Biko-Bold48
 		{
 			"1"
 			{
-				"name"		"ArcaMajora3-Bold"
+				"name"		"Biko-Bold"
 				"tall"		"48"
 				"antialias" "1"
 			}
 		}
 		
-		Arca3Heavy12
+		Biko-Black12
 		{
 			"1"
 			{
-				"name"		"ArcaMajora3-Heavy"
+				"name"		"Biko-Black"
 				"tall"		"12"
 				"antialias" "1"
 			}
 		}
 		
-		Arca3Heavy16
+		Biko-Black16
 		{
 			"1"
 			{
-				"name"		"ArcaMajora3-Heavy"
+				"name"		"Biko-Black"
 				"tall"		"16"
 				"antialias" "1"
 			}
 		}
 		
-		Arca3Heavy24
+		Biko-Black24
 		{
 			"1"
 			{
-				"name"		"ArcaMajora3-Heavy"
+				"name"		"Biko-Black"
 				"tall"		"24"
 				"antialias" "1"
 			}
 		}
 		
-		Arca3Heavy32
+		Biko-Black32
 		{
 			"1"
 			{
-				"name"		"ArcaMajora3-Heavy"
+				"name"		"Biko-Black"
 				"tall"		"32"
 				"antialias" "1"
 			}
 		}
 		
-		Arca3Heavy36
+		Biko-Black36
 		{
 			"1"
 			{
-				"name"		"ArcaMajora3-Heavy"
+				"name"		"Biko-Black"
 				"tall"		"36"
 				"antialias" "1"
 			}
 		}
 		
-		Arca3Heavy42
+		Biko-Black42
 		{
 			"1"
 			{
-				"name"		"ArcaMajora3-Heavy"
+				"name"		"Biko-Black"
 				"tall"		"42"
 				"antialias" "1"
 			}
 		}
 		
-		Arca3Heavy48
+		Biko-Black48
 		{
 			"1"
 			{
-				"name"		"ArcaMajora3-Heavy"
+				"name"		"Biko-Black"
+				"tall"		"48"
+				"antialias" "1"
+			}
+		}
+		
+		Biko12
+		{
+			"1"
+			{
+				"name"		"Biko"
+				"tall"		"12"
+				"antialias" "1"
+			}
+		}
+		
+		Biko16
+		{
+			"1"
+			{
+				"name"		"Biko"
+				"tall"		"16"
+				"antialias" "1"
+			}
+		}
+		
+		Biko24
+		{
+			"1"
+			{
+				"name"		"Biko"
+				"tall"		"24"
+				"antialias" "1"
+			}
+		}
+		
+		Biko32
+		{
+			"1"
+			{
+				"name"		"Biko"
+				"tall"		"32"
+				"antialias" "1"
+			}
+		}
+		
+		Biko36
+		{
+			"1"
+			{
+				"name"		"Biko"
+				"tall"		"36"
+				"antialias" "1"
+			}
+		}
+		
+		Biko42
+		{
+			"1"
+			{
+				"name"		"Biko"
+				"tall"		"42"
+				"antialias" "1"
+			}
+		}
+		
+		Biko48
+		{
+			"1"
+			{
+				"name"		"Biko"
 				"tall"		"48"
 				"antialias" "1"
 			}
@@ -5984,13 +6054,20 @@ Scheme
 		}
 		"8"
 		{
-			"font" "resource/fonts/ArcaMajora3-Bold.otf"
-			"name" "ArcaMajora3-Bold"
+			"font" "resource/fonts/Biko_Black.otf"
+			"name" "Biko-Black"
 		}
+		
 		"9"
 		{
-			"font" "resource/fonts/ArcaMajora3-Heavy.otf"
-			"name" "ArcaMajora3-Heavy"
+			"font" "resource/fonts/Biko_Bold.otf"
+			"name" "Biko-Bold"
+		}
+		
+		"10"
+		{
+			"font" "resource/fonts/Biko_Regular.otf"
+			"name" "Biko"
 		}
 	}
 }
