@@ -83,8 +83,25 @@
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
-		"font"			"Biko-Bold42"
-		"fgcolor"		"TanDark"
+		"font"			"Biko-Bold48"
+		"fgcolor"		"White"
+	}
+		"PlayerStatusHealthValueShadow"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"PlayerStatusHealthValueShadow"
+		"xpos"			"2"
+		"ypos"			"2"	[$WIN32]
+		"ypos"			"55"	[$X360]
+		"zpos"			"4"
+		"wide"			"250"
+		"tall"			"120"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"%Health%"
+		"textAlignment"	"center"	
+		"font"			"Biko-Bold48"
+		"fgcolor"		"TanDarker"
 	}
 	"PlayerStatusMaxHealthValue"
 	{
@@ -297,8 +314,6 @@
 		"image"			"../HUD/defense_buff_fire_blue"
 		"fgcolor"		"TanDark"
 	}
-	
-
 	"PlayerStatus_WheelOfDoom"
 	{
 		"ControlName"	"ImagePanel"

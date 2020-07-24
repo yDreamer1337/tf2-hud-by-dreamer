@@ -17,7 +17,13 @@ Scheme
 
 	//////////////////////// COLORS ///////////////////////////
 	Colors
+	
 	{
+	     ///Custom ArtHud Colors
+		 "White_ArtHud"			"255 255 255 255"
+		 "Black_ArtHud"			"0 0 0 255"
+	
+	
 		// base colors
 		"Orange"			"178 82 22 255"
 		"OrangeDim"			"178 82 22 120"
@@ -3046,6 +3052,16 @@ Scheme
 			{
 				"name"		"Biko-Bold"
 				"tall"		"16"
+				"antialias" "1"
+			}
+		}
+		
+				Biko-Bold20
+		{
+			"1"
+			{
+				"name"		"Biko-Bold"
+				"tall"		"20"
 				"antialias" "1"
 			}
 		}
