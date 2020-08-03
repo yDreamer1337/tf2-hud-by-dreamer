@@ -23,7 +23,6 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthImage"
 		"xpos"			"99"
-		"xpos_minmode"	"60"
 		"ypos"			"35"
 		"zpos"			"4"
 		"wide"			"0"
@@ -37,7 +36,6 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthImageBG"
 		"xpos"			"95"
-		"xpos_minmode"	"58"
 		"ypos"			"33"
 		"zpos"			"3"
 		"wide"			"0"
@@ -51,11 +49,9 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthBonusImage"
-		"xpos"			"73"	[$WIN32]
-		"xpos_minmode"	"65"	[$WIN32]
+		"xpos"			"99999"	[$WIN32]
 		"xpos"			"83"	[$X360]
-		"ypos"			"33"	[$WIN32]
-		"ypos_minmode"	"40"	[$WIN32]
+		"ypos"			"99999"	[$WIN32]
 		"ypos"			"43"	[$X360]
 		"zpos"			"2"
 		"wide"			"55"	[$WIN32]
@@ -65,7 +61,7 @@
 		"tall_minmode"	"40"	[$WIN32]
 		"tall"			"35"	[$X360]
 		"visible"		"0"
-		"enabled"		"1"
+		"enabled"		"0"
 		"image"			"../hud/health_over_bg"
 		"scaleImage"	"1"	
 	}
@@ -83,8 +79,8 @@
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
-		"font"			"Biko-Bold48"
-		"fgcolor"		"White"
+		"font"			"Biko-Bold58"
+		"fgcolor"		"White_ArtHud"
 	}
 		"PlayerStatusHealthValueShadow"
 	{
@@ -101,14 +97,13 @@
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
 		"font"			"Biko-Bold48"
-		"fgcolor"		"TanDarker"
+		"fgcolor"		"Black_ArtHud"
 	}
 	"PlayerStatusMaxHealthValue"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusMaxHealthValue"
 		"xpos"			"76"
-		"xpos_minmode"	"61"
 		"ypos"			"20"	[$WIN32]
 		"ypos"			"55"	[$X360]
 		"zpos"			"6"
@@ -126,7 +121,6 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusBleedImage"
 		"xpos"			"85"
-		"xpos_minmode"	"70"
 		"ypos"			"0"
 		"zpos"			"7"
 		"wide"			"32"
@@ -142,7 +136,6 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHookBleedImage"
 		"xpos"			"85"
-		"xpos_minmode"	"70"
 		"ypos"			"0"
 		"zpos"			"8"
 		"wide"			"32"
@@ -158,7 +151,6 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusMilkImage"
 		"xpos"			"117"
-		"xpos_minmode"	"102"
 		"ypos"			"0"
 		"zpos"			"7"
 		"wide"			"32"

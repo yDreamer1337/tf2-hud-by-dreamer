@@ -3116,6 +3116,16 @@ Scheme
 			}
 		}
 		
+		Biko-Bold58
+		{
+			"1"
+			{
+				"name"		"Biko-Bold"
+				"tall"		"58"
+				"antialias" "1"
+			}
+		}
+		
 		Biko-Black12
 		{
 			"1"
