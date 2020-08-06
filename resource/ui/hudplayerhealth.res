@@ -69,7 +69,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValue"
-		"xpos"			"0"
+		"xpos"			"-25"
 		"ypos"			"0"	[$WIN32]
 		"ypos"			"55"	[$X360]
 		"zpos"			"5"
@@ -82,12 +82,12 @@
 		"font"			"Biko-Bold58"
 		"fgcolor"		"White_ArtHud"
 	}
-		"PlayerStatusHealthValueShadow"
+	"PlayerStatusHealthValueShadow"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValueShadow"
-		"xpos"			"2"
-		"ypos"			"2"	[$WIN32]
+		"xpos"			"-23"
+		"ypos"			"1"	[$WIN32]
 		"ypos"			"55"	[$X360]
 		"zpos"			"4"
 		"wide"			"250"
@@ -96,7 +96,7 @@
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
-		"font"			"Biko-Bold48"
+		"font"			"Biko-Bold58"
 		"fgcolor"		"Black_ArtHud"
 	}
 	"PlayerStatusMaxHealthValue"
