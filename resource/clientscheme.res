@@ -3036,6 +3036,26 @@ Scheme
 		}
 	
 	
+		Biko-Bold6
+		{
+			"1"
+			{
+				"name"		"Biko-Bold"
+				"tall"		"6"
+				"antialias" "1"
+			}
+		}
+		
+		Biko-Bold9
+		{
+			"1"
+			{
+				"name"		"Biko-Bold"
+				"tall"		"9"
+				"antialias" "1"
+			}
+		}
+		
 		Biko-Bold12
 		{
 			"1"

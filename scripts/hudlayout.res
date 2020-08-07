@@ -7,6 +7,7 @@
 		"enabled" "1"
 		"xpos"	"0"
 		"ypos"	"0"
+		"ypos"	"0"
 		"wide"	"f0"
 		"tall"	"480"
 	}
@@ -63,8 +64,8 @@
 		"ypos_minmode"	"r50"	[$WIN32]
 		"xpos"			"r194"	[$X360]
 		"ypos"			"r74"	[$X360]
-		"wide"			"100"
-		"tall"			"50"
+		"wide"			"350"
+		"tall"			"200"
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
 	}
@@ -87,18 +88,18 @@
 		"fieldName"		"HudDemomanCharge"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"r80"	[$WIN32]
+		"xpos"			"0"	[$WIN32]
 		"xpos_minmode"	"r52"	[$WIN32]
-		"ypos"			"r21"	[$WIN32]
+		"ypos"			"r90"	[$WIN32]
 		"ypos_minmode"	"r40"	[$WIN32]
 		"xpos"			"r112"	[$X360]
 		"ypos"			"r45"	[$X360]
 		"zpos"			"1"			// draw in front of ammo
-		"wide"			"60"
+		"wide"			"f0"
 		"wide_minmode"	"50"
-		"tall"			"8"
-		"MeterFG"		"White"
-		"MeterBG"		"Gray"
+		"tall"			"250"
+		"MeterFG"		"White_ArtHud"
+		"MeterBG"		"0 0 0 150"
 	}	
 
 	HudBowCharge
@@ -1032,14 +1033,12 @@
 		"fieldName"		"HudDemomanPipes"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"r162"	[$WIN32]
-		"xpos_minmode"	"r110"	[$WIN32]
-		"ypos"			"r52"	[$WIN32]
-		"ypos_minmode"	"r30"	[$WIN32]
+		"xpos"			"c-150"	[$WIN32]
+		"ypos"			"c30"	[$WIN32]
 		"xpos"			"r194"	[$X360]
 		"ypos"			"r74"	[$X360]
-		"wide"			"100"
-		"tall"			"50"
+		"wide"			"300"
+		"tall"			"150"
 	}	
 
 	HudTeamGoal
