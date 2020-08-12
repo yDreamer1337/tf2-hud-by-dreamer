@@ -1,4 +1,4 @@
-"Resource/UI/HudItemEffectMeter.res"
+"Resource/UI/HudItemEffectMeter_Scout.res"
 {
 	HudItemEffectMeter
 	{
@@ -7,7 +7,7 @@
 		"enabled"		"1"
 		"x_offset"		"40"
 		"xpos"			"c-22"
-		"ypos"			"385"
+		"ypos"			"370"
 		"xpos_minmode"	"r52"
 		"ypos_minmode"	"r68"
 		"x_offset_minmode"		"0"
@@ -22,18 +22,18 @@
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"ItemEffectMeterBG"
 		"xpos"			"12"
-		"ypos"			"6"
+		"ypos"			"0"
 		"zpos"			"0"
 		"wide"			"100"
 		"tall"			"50"
 		"visible"		"0"
 		"visible_minmode"	"0"
 		"enabled"		"0"
-		"image"			"../hud/misc_ammo_area_horiz1_blue"
+		"image"			"../hud/misc_ammo_area_horiz2_blue"
 		"scaleImage"	"1"	
-		"teambg_2"		"../hud/misc_ammo_area_horiz1_red"
+		"teambg_2"		"../hud/misc_ammo_area_horiz2_red"
 		"teambg_2_lodef"	"../hud/misc_ammo_area_red_lodef"
-		"teambg_3"		"../hud/misc_ammo_area_horiz1_blue"
+		"teambg_3"		"../hud/misc_ammo_area_horiz2_blue"
 		"teambg_3_lodef"	"../hud/misc_ammo_area_blue_lodef"				
 	}
 	
