@@ -1,11 +1,11 @@
-"Resource/UI/HudItemEffectMeter_Demoman.res"
+"Resource/UI/HudItemEffectMeter_Sniper.res"
 {
 	HudItemEffectMeter
 	{
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"c25"	[$WIN32]
+		"xpos"			"c22"	[$WIN32]
 		"ypos"			"c130"	[$WIN32]
 		"xpos_minmode"	"r70"	[$WIN32]
 		"ypos_minmode"	"r74"	[$WIN32]
@@ -30,7 +30,7 @@
 		"visible_minmode"	"0"
 		"enabled"		"0"
 		"image"			"../hud/misc_ammo_area_blue"
-		"scaleImage"	"0"	
+		"scaleImage"	"1"	
 		"teambg_2"		"../hud/misc_ammo_area_red"
 		"teambg_2_lodef"	"../hud/misc_ammo_area_red_lodef"
 		"teambg_3"		"../hud/misc_ammo_area_blue"
@@ -101,25 +101,3 @@
 		"font"					"Biko-Bold24"
 		"fgcolor_override       "White_ArtHud"
 	}
-	
-		"ItemEffectMeterCountShadow"
-	{
-		"ControlName"			"CExLabel"
-		"fieldName"				"ItemEffectMeterCountShadow"
-		"xpos"					"40"
-		"ypos"					"60"
-		"zpos"					"5"
-		"wide"					"200"
-		"tall"					"100"	
-		"pinCorner"				"2"
-		"visible"				"1"
-		"enabled"				"1"
-		"tabPosition"			"0"
-		"labelText"				"%progresscount%"
-		"textAlignment"			"north"
-		"dulltext"				"0"
-		"brighttext"			"0"
-		"font"					"Biko-Bold24"
-		"fgcolor_override       "Black_ArtHud"
-	}
-}

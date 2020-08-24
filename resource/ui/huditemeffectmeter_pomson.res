@@ -1,20 +1,14 @@
-"Resource/UI/HudItemEffectMeter_Engineer.res"
+"Resource/UI/HudItemEffectMeter_Pomson.res"
 {
 	HudItemEffectMeter
 	{
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"c25"	[$WIN32]
-		"ypos"			"c130"	[$WIN32]
-		"xpos_minmode"	"r70"	[$WIN32]
-		"ypos_minmode"	"r74"	[$WIN32]
-		"xpos"			"r194"	[$X360]
-		"ypos"			"r74"	[$X360]
+		"xpos"			"c-59"
+		"ypos"			"370"
 		"wide"			"300"
 		"tall"			"200"
-		"MeterFG"		"White"
-		"MeterBG"		"Gray"
 	}
 	
 	"ItemEffectMeterBG"
@@ -24,16 +18,16 @@
 		"xpos"			"12"
 		"ypos"			"0"
 		"zpos"			"0"
-		"wide"			"76"
-		"tall"			"44"
+		"wide"			"100"
+		"tall"			"50"
 		"visible"		"0"
 		"visible_minmode"	"0"
 		"enabled"		"0"
-		"image"			"../hud/misc_ammo_area_blue"
+		"image"			"../hud/misc_ammo_area_horiz2_blue"
 		"scaleImage"	"1"	
-		"teambg_2"		"../hud/misc_ammo_area_red"
+		"teambg_2"		"../hud/misc_ammo_area_horiz2_red"
 		"teambg_2_lodef"	"../hud/misc_ammo_area_red_lodef"
-		"teambg_3"		"../hud/misc_ammo_area_blue"
+		"teambg_3"		"../hud/misc_ammo_area_horiz2_blue"
 		"teambg_3_lodef"	"../hud/misc_ammo_area_blue_lodef"				
 	}
 	
@@ -41,62 +35,45 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterLabel"
-		"xpos"					"40"
-		"ypos"					"31"
+		"xpos"					"41"
+		"ypos"					"21"
 		"zpos"					"2"
-		"wide"					"200"
-		"tall"					"100"
+		"wide"					"41"
+		"tall"					"15"
 		"autoResize"			"1"
 		"pinCorner"				"2"
 		"visible"				"1"
 		"enabled"				"1"
 		"tabPosition"			"0"
-		"labelText"				"#TF_Ball"
+		"labelText"				"#TF_ENERGYDRINK"
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"font"					"Biko-Bold9"
+		"fgcolor_override"      "Black_ArtHud"
 	}
 
-	"ItemEffectMeter"
+		"ItemEffectMeter"
 	{	
 		"ControlName"			"ContinuousProgressBar"
 		"fieldName"				"ItemEffectMeter"
 		"font"					"Default"
-		"xpos"					"25"
-		"ypos"					"23"
+		"xpos"					"0"
+		"ypos"					"20"
 		"ypos_minmode"			"0"
 		"xpos_minmode"			"0"
 		"zpos"					"2"
-		"wide"					"40"
+		"wide"					"124"
 		"wide_minmode"			"50"
-		"tall"					"6"				
+		"tall"					"5"				
 		"autoResize"			"0"
 		"pinCorner"				"0"
-		"visible"				"0"
-		"enabled"				"0"
-		"textAlignment"			"Left"
-		"dulltext"				"0"
-		"brighttext"			"0"
-	}					
-	
-	"ItemEffectMeterCount"
-	{
-		"ControlName"			"CExLabel"
-		"fieldName"				"ItemEffectMeterCount"
-		"xpos"					"40"
-		"ypos"					"55"
-		"zpos"					"2"
-		"wide"					"200"
-		"tall"					"100"	
-		"pinCorner"				"2"
 		"visible"				"1"
 		"enabled"				"1"
-		"tabPosition"			"0"
-		"labelText"				"%progresscount%"
-		"textAlignment"			"north"
+		"textAlignment"			"center"
 		"dulltext"				"0"
-		"brighttext"			"0"
-		"font"					"Biko-Bold24"
+		"brighttext"		"0"
+		"fgcolor_override"       "White_ArtHud"
+		"bgcolor_override"       "0 0 0 150"
 	}
 }
