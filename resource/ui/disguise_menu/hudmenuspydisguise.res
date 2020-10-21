@@ -9,11 +9,27 @@
 		"zpos"			"0"
 		"wide"			"470"
 		"tall"			"170"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"scaleImage"	"1"	
 		"icon"			"hud_menu_bg"
 		"iconColor"		"255 255 255 255"
+	}
+	
+	"SpyBG"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"SpyBG"
+		"xpos"			"0"
+		"ypos"			"15"
+		"zpos"			"0"
+		"wide"			"470"
+		"tall"			"145"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"bgcolor_override"     "0 0 0 190"
 	}
 
 	"Divider"
@@ -25,7 +41,7 @@
 		"zpos"			"1"
 		"wide"			"456"
 		"tall"			"2"
-		"fillcolor"		"255 222 208 255"
+		"fillcolor"		"White_ArtHud"
 	}
 
 	"SpyIcon"
@@ -48,9 +64,9 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel"
-		"font"			"HudFontGiantBold"
-		"xpos"			"55"			// align me to the left edge of the first selection
-		"ypos"			"5"
+		"font"			"Biko36"
+		"xpos"			"-40"			// align me to the left edge of the first selection
+		"ypos"			"25"
 		"zpos"			"3"
 		"wide"			"360"
 		"tall"			"38"
@@ -59,19 +75,20 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"#Hud_Menu_Disguise_Title"
-		"textAlignment"	"Left"
+		"textAlignment"	"Center"
 		"dulltext"		"0"
 		"brighttext"	"0"
+		"fgcolor_override"       "White_ArtHud"
 	}
 	
 	"TitleLabelDropshadow"
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabelDropshadow"
-		"font"			"HudFontGiantBold"
+		"font"			"Biko36"
 		"fgcolor"		"Black"
-		"xpos"			"55"			// align me to the left edge of the first selection
-		"ypos"			"6"
+		"xpos"			"-39"			// align me to the left edge of the first selection
+		"ypos"			"26"
 		"zpos"			"3"
 		"wide"			"360"
 		"tall"			"38"
@@ -80,9 +97,10 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"#Hud_Menu_Disguise_Title"
-		"textAlignment"	"Left"
+		"textAlignment"	"Center"
 		"dulltext"		"1"
 		"brighttext"	"0"
+		"fgcolor_override"       "Black_ArtHud"
 	}	
 	
 	"ToggleLabel"
@@ -97,8 +115,8 @@
 		"tall"			"13"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"labelText"		"#Hud_Menu_Spy_Minus_Toggle"
 		"textAlignment"	"Left"
 		"dulltext"		"0"
@@ -109,9 +127,9 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"CancelLabel"
-		"font"			"Default"
+		"font"			"Biko12"
 		"xpos"			"250"
-		"ypos"			"49"
+		"ypos"			"25"
 		"zpos"			"2"
 		"wide"			"200"
 		"tall"			"13"
@@ -132,8 +150,8 @@
 		"xpos"			"20"
 		"ypos"			"50"
 		"zpos"			"2"
-		"wide"			"45"
-		"tall"			"120"
+		"wide"			"90"
+		"tall"			"200"
 		"visible"		"1"
 	}	
 	
@@ -348,10 +366,10 @@
 		"xpos"			"75"
 		"ypos"			"140"
 		"zpos"			"4"
-		"wide"			"15"
-		"tall"			"15"
+		"wide"			"0"
+		"tall"			"0"
 		"visible"		"0"
-		"enabled"		"1"
+		"enabled"		"0"
 		"scaleImage"	"1"	
 		"icon"			"ico_key_blank"
 		"iconColor"		"255 255 255 255"
@@ -361,7 +379,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel"
-		"font"			"Default"
+		"font_override"			"Biko12"
 		"fgcolor"		"Black"
 		"xpos"			"75"
 		"ypos"			"140"
@@ -371,7 +389,7 @@
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
-		"enabled"		"1"
+		"enabled"		"0"
 		"labelText"		"1"
 		"textAlignment"	"Center"
 		"dulltext"		"1"

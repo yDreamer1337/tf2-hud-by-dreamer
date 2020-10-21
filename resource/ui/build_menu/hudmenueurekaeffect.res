@@ -9,8 +9,8 @@
 		"zpos"			"0"
 		"wide"			"250"
 		"tall"			"170"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"scaleImage"	"1"	
 		"icon"			"hud_menu_bg"
 		"iconColor"		"255 255 255 255"
@@ -20,7 +20,7 @@
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"BuildIcon"
-		"xpos"			"15"
+		"xpos"			"5"
 		"ypos"			"-8"
 		"zpos"			"1"
 		"wide"			"48"
@@ -30,6 +30,34 @@
 		"scaleImage"	"1"	
 		"icon"			"ico_build"
 		"iconColor"		"255 255 255 255"
+	}
+	
+	"Divider"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"Divider"
+		"xpos"			"20"
+		"ypos"			"47"
+		"zpos"			"1"
+		"wide"			"210"
+		"tall"			"2"
+		"fillcolor"		"255 222 208 255"
+	}
+	
+	"EuEffectBG"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"EuEffectBGBG"
+		"xpos"			"0"
+		"ypos"			"7"
+		"zpos"			"0"
+		"wide"			"250"
+		"tall"			"170"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"bgcolor_override"     "0 0 0 190"
 	}
 	
 	"BuildIconShadow"	
@@ -53,7 +81,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel"
 		"font"			"Biko36"
-		"xpos"			"68"			// align me to the left edge of the first selection
+		"xpos"			"35"			// align me to the left edge of the first selection
 		"ypos"			"10"
 		"zpos"			"2"
 		"wide"			"300"
@@ -74,7 +102,7 @@
 		"fieldName"		"TitleLabelDropshadow"
 		"font"			"Biko36"
 		"fgcolor"		"Black_ArtHud"
-		"xpos"			"69"			// align me to the left edge of the first selection
+		"xpos"			"36"			// align me to the left edge of the first selection
 		"ypos"			"11"
 		"zpos"			"1"
 		"wide"			"300"
@@ -101,8 +129,8 @@
 		"tall"			"13"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"labelText"		"#Hud_Menu_Build_Cancel"
 		"textAlignment"	"East"
 		"dulltext"		"0"
@@ -118,7 +146,7 @@
 		"zpos"			"10"
 		"wide"			"100"
 		"tall"			"124"
-		"visible"		"1"
+		"visible"		"0"
 	}	
 	
 	"available_target_2"
@@ -130,7 +158,7 @@
 		"zpos"			"1"
 		"wide"			"100"
 		"tall"			"124"
-		"visible"		"1"
+		"visible"		"0"
 	}	
 
 	"unavailable_target_1"
