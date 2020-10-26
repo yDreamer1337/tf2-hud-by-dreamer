@@ -35,6 +35,7 @@
 		"icon"			"hud_menu_pyro_blu"
 	}
 		
+
 	"NumberBg"	
 	{
 		"ControlName"	"CIconPanel"
@@ -42,8 +43,8 @@
 		"xpos"			"15"
 		"ypos"			"90"
 		"zpos"			"0"
-		"wide"			"15"
-		"tall"			"15"
+		"wide"			"0"
+		"tall"			"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	

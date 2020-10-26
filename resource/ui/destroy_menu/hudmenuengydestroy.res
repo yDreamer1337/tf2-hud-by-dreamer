@@ -28,10 +28,10 @@
 		"fillcolor"		"255 222 208 255"
 	}
 	
-	"EngieBG"
+	"Engie2BG"
 	{
 		"ControlName"	"EditablePanel"
-		"fieldName"		"EngieBG"
+		"fieldName"		"Engie2BG"
 		"xpos"			"0"
 		"ypos"			"7"
 		"zpos"			"0"

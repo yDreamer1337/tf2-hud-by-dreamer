@@ -3216,6 +3216,26 @@ Scheme
 			}
 		}
 		
+	    Biko6
+		{
+			"1"
+			{
+				"name"		"Biko"
+				"tall"		"6"
+				"antialias" "1"
+			}
+		}
+		
+		Biko9
+		{
+			"1"
+			{
+				"name"		"Biko"
+				"tall"		"9"
+				"antialias" "1"
+			}
+		}
+		
 		Biko12
 		{
 			"1"

@@ -366,10 +366,10 @@
 		"xpos"			"75"
 		"ypos"			"140"
 		"zpos"			"4"
-		"wide"			"0"
-		"tall"			"0"
+		"wide"			"15"
+		"tall"			"15"
 		"visible"		"0"
-		"enabled"		"0"
+		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"ico_key_blank"
 		"iconColor"		"255 255 255 255"
@@ -379,7 +379,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel"
-		"font_override"			"Biko12"
+		"font_override"			"Default"
 		"fgcolor"		"Black"
 		"xpos"			"75"
 		"ypos"			"140"
@@ -393,7 +393,7 @@
 		"labelText"		"1"
 		"textAlignment"	"Center"
 		"dulltext"		"1"
-		"brighttext"	"0"
+		"brighttext"	"1"
 	}
 
 	"NumberBg2"
@@ -416,7 +416,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel"
-		"font"			"Default"
+		"font"			"Divider"
 		"fgcolor"		"Black"
 		"xpos"			"227"
 		"ypos"			"140"
@@ -430,7 +430,7 @@
 		"labelText"		"2"
 		"textAlignment"	"Center"
 		"dulltext"		"1"
-		"brighttext"	"0"
+		"brighttext"	"1"
 	}
 	
 	"NumberBg3"
@@ -467,6 +467,8 @@
 		"labelText"		"3"
 		"textAlignment"	"Center"
 		"dulltext"		"1"
-		"brighttext"	"0"
+		"brighttext"	"1"
+		"font_override"			"Biko9"
+		"fgcolor_override"		"White_ArtHud"
 	}
 }
