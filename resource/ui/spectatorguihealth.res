@@ -92,7 +92,7 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"textAlignment"	"center"	
-		"font"			"ScoreboardVerySmall"
+		"font"			"Biko12"
 		"fgcolor"		"TFOrange"
 	}							
 }
